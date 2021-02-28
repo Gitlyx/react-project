@@ -6,17 +6,141 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
-    <meta
-            name="description"
-            content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app"/>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>React App</title>
 </head>
+
 <body>
+<section id="navigation-bar">
+    <div class="container-navigation navbar navbar-expand-lg navbar-light navbar-links">
+        <a class="navbar-brand" href="">Charlies Factory</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-links collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="">My work</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Start Hero -->
+<section class="bg-half-170 d-table w-100">
+    <div class="lading-container container">
+        <div class="row mt-5 align-items-center">
+            <div class="col-lg-5 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0 pb-sm-5">
+                <img src="https://dl.acm.org/do/10.1145/contrib-99659319011/rel-imgonly/profile-smaller.jpg"
+                     class="img-fluid" alt="" title="" style="">
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <div class="title-heading">
+                    <h6>Designer, Developer, Creationist</h6>
+                    <h6 class="display-4 fw-bold">CHARLIE VO</h6>
+                    <p class="text-muted para-desc">Porfo is a Creative Agency &amp; Startup Studio that provides
+                        Digital Products and Services turns to focus on client success.</p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Show my education
+                    </button>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<div class="collapse" id="collapseExample">
+    <section class="education">
+        <div class="card-deck work-experience row justify-content-around mr-2 ml-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Software engineering</h5>
+                    <p class="card-text">Software engineering is a detailed study of engineering to the design, development
+                        and maintenance of software.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">OsloMet University - 2023</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body ">
+                    <h5 class="card-title">Mechanical engineering</h5>
+                    <p class="card-text">Mechanical engineering is the study, design, development, construction, and testing
+                        of mechanical and thermal sensors and devices, including tools, engines, and machines.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">OsloMet University - 2016</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body ">
+                    <h5 class="card-title">General Science</h5>
+                    <p class="card-text">General science is an interdisciplinary major that gives you a grand tour of the
+                        sciences. You study
+                        biology,
+                        chemistry, computer science, physics, and/or psychology — and at least a year of mathematics.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Cambridge R. College - 2013</small>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- Work experience -->
+<section id="work-experience">
+    <div class="work-experience row ">
+        <div class="col-md-12">
+            <h2>Work Experience</h2>
+            <br>
+        </div>
+        <br>
+        <div class="col-12">
+            <h4>Interior Specialist</h4>
+            <h6>Planning Studio Ingka Group: 2020 - 2023</h6>
+            <p>Interior designers make interior spaces functional, safe, and beautiful by determining space requirements and
+                selecting decorative items, such as colors, lighting, and materials. They read blueprints and must be aware of
+                building codes and inspection regulations, as well as universal accessibility standards.
+            </p>
+        </div>
+        <div class="col-12">
+            <h4>Design Consaultant</h4>
+            <h6>Kitchen Design dpt. Ingka Group : 2016 - 2020 </h6>
+            <p>Effective kitchen design is the process of combining layout, surfaces, appliances and design details to form
+                a cooking space that's easy to use and fun to cook and socialise in. The world of effective kitchen design is
+                a maze of design ideas, guides and tips – and a seemingly endless stream of expert advice.
+            </p>
+        </div>
+        <div class="col-12">
+            <h4>Logistics</h4>
+            <h6>Sentraldistribusjon AS: 2013 - 2016</h6>
+            <p>Design for logistics is the design of products for manufacturing, packaging, shipping, warehousing,
+                merchandising and repackaging for returns. It commonly includes goals such as scale, cost efficiency,
+                environmental impact, security and marketing.24. okt. 2016
+            </p>
+        </div>
+    </div>
+</section>
+
 <div id="root"></div>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -1,0 +1,98 @@
+section {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav and top container */
+
+.container-navigation {
+    background: #bbd4ce;
+}
+
+.navbar-brand {
+    padding-left: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.navbar {
+    background-color: white;
+}
+
+/* Landing container */
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/market.jpg);
+
+}
+
+.lading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* if you don't want it to take up the full screen, reduce this number */
+    overflow: hidden;
+    background-size: cover !important;
+    background-image: url(img/market.jpg);
+}
+
+
+/* short-intro container */
+
+.presentation-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 5% 10% 5% 10%;
+}
+
+.presentation-text {
+    padding: 50px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.landing-img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+
+}
+
+.presentation-title {
+    text-align: center;
+}
+
+.short-intro {
+    height: 200px;
+}
+
+/* education container */
+.img-building {
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+
+/* feature container */
+
+#work-experience {
+    text-align: left;
+}
+
+
